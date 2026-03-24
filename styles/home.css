@@ -453,13 +453,19 @@ margin: 20px 0;
 }
 
 .news-update {
-   width: 500px;
+   width: 100%;
    background-color: #0ba360;
+   z-index: 1;
+   border-radius: 10px;
+   padding: 16px;
+   /* position: absolute; */
+
 }
 
 .footer {
     background-color: var(--nav-color);
     padding: 2rem 0;
+    position: relative;
 }
 
 .footer-logo p {
@@ -494,5 +500,13 @@ margin: 20px 0;
 
 .social-media img{
     width: 30px;
+}
+
+.reserve {
+    color: var(--active-color);
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--main-font);
+    margin: 1rem 0;
 }
 
