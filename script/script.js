@@ -1,10 +1,11 @@
 const closeIcon = document.querySelector('.close-icon');
-const menuContainer = document.querySelector('.menu-container');
+const menuPanel = document.querySelector('.menu-panel');
 const menuIcon = document.querySelector('.menu-icon');
 
-closeIcon.addEventListener('click', () => {
-    menuContainer.classList.add('active')
-});
-menuIcon.addEventListener('click', () => {
-    menuContainer.classList.remove('active')
-});
+ menuIcon.addEventListener('click', () => {
+   menuPanel.classList.add('active');
+ });
+
+ closeIcon.addEventListener('click', () => {
+     menuPanel.classList.remove('active')
+ })
