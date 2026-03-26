@@ -11,7 +11,7 @@
     <main class="main-container">
         <section class="hero-section">
             <div class="nav-container">
-                <nav class="desktop-nav">
+                <nav class="desktop-nav" aria-label="desktop-nav">
                     <div class="desktop-logo">
                         <p>Diet-Coach</p>
                     </div>
@@ -29,18 +29,22 @@
                 </nav>
 
                 <!-- Mobile Nav-->
-                <nav class="mobile-nav">
+                <nav class="mobile-nav" aria-label="mobile-menu">
                     <div class="mobile-logo">
                         <p>Diet-Coach</p>
                     </div>
                     <img src="/images/hambuger-menu.png" alt="hamburger-menu"
-                    class="hamburger-menu">
+                    class="menu-icon">
                 </nav>
 
+                <!-- The hidden overlay menu -->
                 <div class="menu-container">
                     <div class="close-icon-container">
-                        <img src="/images/close-icon.png" alt="">
+                        <img src="/images/close-icon.png" 
+                        alt="close-icon"
+                        class="close-icon">
                     </div>
+
                     <ul class="mobile-menu">
                         <li>
                             <a href="/index.html">Home</a>
@@ -50,6 +54,7 @@
                         <li> <a href="/html/blog.html">Blog</a></li>
                     </ul>
                 </div>
+
             </div>
 
        <div class="hero-section-container">
