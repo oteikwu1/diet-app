@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --main-font: "poppins", sans-serif;
-    --nav-color: #0a132a;
-    --active-color: #ffffff;
-    --inactive-color: #ffffff80;
-    --accent-color: #1e90ff;
-    --text-color: #3a3a3a;
-    --hero-bg-color: #d9d9d9;
-    --card-color: #f2f2f2;
-    --btn-gradient: linear-gradient(to top,
-        #0ba360 0%,
-        #3cba92 100%);
-}
 
 .desktop-logo p{
     color: var(--active-color);
