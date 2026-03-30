@@ -109,7 +109,32 @@
     object-fit: cover;
 }
 
+.wellness-section{
+    margin: 70px 0;
+}
 .wellness-section-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.wellness-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wellness-title {
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+
+.wellness-video-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.wellness-video-container video {
+    border-radius: 10px;
+} 
