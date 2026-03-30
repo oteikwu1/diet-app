@@ -764,5 +764,29 @@ margin: 20px 0;
     padding: 1rem 1.4rem;
     font-size: 1rem;
    }
+
+   .news-update {
+    flex-direction: column;
+   }
+
+   .footer-container{
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 10px;
+    }
+
+    .footer-logo p {
+     font-size: 1.2rem;
+     margin-bottom: 1rem;
+    text-align: center;
+    }
+    
+    .footer-links ul {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0 auto;
+    }
+   }
+
    
-}
+

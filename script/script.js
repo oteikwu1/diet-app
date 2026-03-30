@@ -8,4 +8,5 @@ const menuIcon = document.querySelector('.menu-icon');
 
  closeIcon.addEventListener('click', () => {
      menuPanel.classList.remove('active')
- })
+ });
+
