@@ -8,10 +8,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 30px;
     background-color: var(--nav-color);
     padding: 20px 50px;
     border-radius: 50px;
+    position: sticky;
 }
 
 .desktop-link ul {
@@ -50,4 +50,35 @@
 
 .menu-container {
     display: none;
+}
+
+.hero-section {
+    background-color: var(--hero-bg-color);
+    padding: 20px 0;
+}
+
+.about-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.hero-content-title {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    line-height: 1.2;
+    font-weight: normal;
+}
+.about-image-container{
+    width: 500px;
+    height: 500px;
+    background-color: var(--active-color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about-hero-img {
+    width: 100%;
+    margin-top: 90px;
+    object-fit: cover;
 }
