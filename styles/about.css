@@ -112,6 +112,7 @@
 .wellness-section{
     margin: 70px 0;
 }
+
 .wellness-section-container {
     display: flex;
     justify-content: space-between;
@@ -126,6 +127,17 @@
 .wellness-title {
     font-family: var(--main-font);
     color: var(--text-color);
+    font-size: 2rem;
+}
+.wellness-subtitle {
+    max-width: 300px;
+}
+
+.wellness-subtitle p{
+    font-family: var(--main-font);
+    color: var(--text-color);
+    line-height: 1.4;
+    margin: 1rem 0;
 }
 
 .wellness-video-container {
