@@ -133,11 +133,16 @@
     max-width: 300px;
 }
 
+.wellness-subtitle h4 {
+    font: normal normal 1.2rem/1.2 var(--main-font);
+    color: var(--accent-color);
+}
+
 .wellness-subtitle p{
     font-family: var(--main-font);
     color: var(--text-color);
     line-height: 1.4;
-    margin: 1rem 0;
+    margin: 1rem 0; 
 }
 
 .wellness-video-container {
@@ -150,3 +155,25 @@
 .wellness-video-container video {
     border-radius: 10px;
 } 
+
+.about-cs-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-section {
+    max-width: 400px;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+.circle h5 {
+    /* color: var(--active-color); */
+    margin: 0 auto;
+    font-size: 2rem;
+}
