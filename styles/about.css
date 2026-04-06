@@ -532,8 +532,39 @@
     .footer-logo {
         margin: 2rem auto;
     }
+    .footer-links {
+        margin: 2rem 0;
+    }
 
     .footer-links a {
         color: var(--inactive-color);
+        text-align: center;
     }
+
+    .footer-links ul {
+        justify-content: center;
+        font-size: 1rem;
+        color: var(--text-color);
+    }
+
+  .footer-links ul li:nth-child(2) a {
+    color: var(--active-color);
+  }
+
+  .social-media img {
+    width: 18px;
+  }
+
+  .social-media {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  hr {
+    color: var(--inactive-color);
+  }
+
+  .reserve {
+    color: var(--inactive-color);
+  }
 }
