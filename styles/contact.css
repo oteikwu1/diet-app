@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+        margin: 0 80px;
+    background-color: blueviolet;
+}
+
+.desktop-logo p {
+    color: var(--active-color);
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+}
+
+.desktop-nav {
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin: 0 30px;
+    background-color: var(--nav-color);
+    padding: 20px 50px;
+    border-radius: 50px;
+
+}
+
+.desktop-link ul {
+    display: flex;
+    gap: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--main-font);
+    color: var(--inactive-color);
+    font-family: 1rem;
+}
+
+.desktop-link li {
+    list-style: none;
+}
+
+.desktop-link a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--main-font);
+    color: var(--inactive-color);
+}
+
+.desktop-link li:nth-child(3) a {
+    color: var(--active-color);
+}
+
+/* Mobile nav */
+.mobile-nav {
+    display: none;
+}
+
+.menu-panel {
+    display: none;
+}
+
+.menu-container {
+    display: none;
+}
