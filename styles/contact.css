@@ -77,11 +77,16 @@
     gap: 30px;
 }
 
+.call-icon {
+   filter: brightness(0) invert(1);
+}
+
 .contact {
     max-width: fit-content;
     background-color: var(--nav-color);
-    padding: 20px;
+    padding: 60px;
     border: 2px solid transparent;
+    border-radius: 10px;
   
 }
 
@@ -89,8 +94,15 @@
     width: 26px;
 }
 
-.phone-number {
+.contact-phone {
     color: var(--active-color);
+    font-family: var(--main-font);
+    margin: 1rem 0;
+    font-weight: normal;
+}
+
+.phone-number {
+    color: var(--inactive-color);
     font-family: var(--main-font);
     font-size: 1rem;
     margin: 0.4rem 0;
@@ -101,4 +113,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.content-container h1 {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 1.4rem auto;
+    line-height: 1.2;
+}
+
+.contact-content {
+    font-size: 1rem;
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+
+.name-input {
+  padding: 0.7rem 0.4rem; 
+  min-width:  300px;
+
 }
