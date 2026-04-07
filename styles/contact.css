@@ -389,4 +389,30 @@ body {
     .contact-container {
         flex-direction: column;
     }
+
+    .news-update {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin: 1rem 0;
+        color: var(--active-color);
+    }
+
+    .footer-links ul{
+        justify-content: center;
+        margin: 1rem 0;
+        color: var(--active-color);
+    }
+
+    .social-media {
+        justify-content: center;
+         margin: 1rem 0;
+    }
 }
