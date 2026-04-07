@@ -16,4 +16,7 @@
     --btn-gradient: linear-gradient(to top,
             #0ba360 0%,
             #3cba92 100%);
+    --border-gradient: linear-gradient(45deg,
+     #fada61 0.000%, #ff9188 50.000%,
+      #ff5acd 100%);
 }

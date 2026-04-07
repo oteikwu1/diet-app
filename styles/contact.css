@@ -5,8 +5,8 @@
 }
 
 .main-container {
-        margin: 0 80px;
-    background-color: blueviolet;
+    margin: 0 80px;
+
 }
 
 .desktop-logo p {
@@ -63,4 +63,29 @@
 
 .menu-container {
     display: none;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.contact {
+    max-width: 200px;
+    background-color: var(--nav-color);
+    padding: 20px;
+    border: 2px solid transparent;
+  
+}
+
+.call-icon {
+    width: 26px;
+}
+
+.phone-number {
+    color: var(--active-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    margin: 0.4rem 0;
 }
