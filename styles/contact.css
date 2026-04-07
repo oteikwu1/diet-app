@@ -71,8 +71,14 @@
     margin: 40px 0;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 .contact {
-    max-width: 200px;
+    max-width: fit-content;
     background-color: var(--nav-color);
     padding: 20px;
     border: 2px solid transparent;
@@ -88,4 +94,11 @@
     font-family: var(--main-font);
     font-size: 1rem;
     margin: 0.4rem 0;
+}
+
+.contact-us-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
