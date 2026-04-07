@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--main-font);
+    background-color: var(--hero-bg-color);
+}
+
 .main-container {
     margin: 0 80px;
 
@@ -111,11 +116,11 @@
 .contact-us-details {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.content-container h1 {
+.content-container h2 {
     color: var(--text-color);
     font-family: var(--main-font);
     text-transform: capitalize;
@@ -130,8 +135,170 @@
     color: var(--text-color);
 }
 
-.name-input {
+.name-input,
+.email-input {
   padding: 0.7rem 0.4rem; 
   min-width:  300px;
+  margin: 1rem 0;
+  border-radius: 10px;
+  border: 2px solid var(--nav-color);
+  font-size: 1.2rem;
+}
 
+.name-input::placeholder {
+    font-size: 1rem;
+    font-family: var(--main-font);
+}
+
+.contact-textarea {
+    min-width: 300px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-textarea::placeholder {
+    font-size: 1rem;
+}
+
+.contact-btn {
+    padding: 16px 34px;
+    background: var(--btn-gradient);
+    color: var(--active-color);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 16px 0;
+}
+
+
+ews-update {
+    width: 100%;
+    background-color: #0ba360;
+    z-index: 10;
+    border-radius: 10px;
+    padding: 16px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 2rem 80px;
+}
+
+.newsletter {
+    color: var(--active-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.update-title {
+    color: var(--active-color);
+    font-family: var(--main-font);
+    font-size: 2rem;
+    margin: 1.4rem 0;
+}
+
+.update-content {
+    color: var(--active-color);
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.email-input {
+    padding: 1.4rem 1rem;
+    border: none;
+    border-radius: 50px;
+    width: 350px;
+    font-size: 1rem;
+}
+
+.email-input::placeholder {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+}
+
+.email-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--accent-color);
+}
+
+.subscribe-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--accent-color);
+    color: var(--active-color);
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.footer {
+    background-color: var(--nav-color);
+    padding: 2rem 0;
+    position: relative;
+}
+
+.footer-logo p {
+    color: var(--card-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 30px;
+}
+
+.footer-links ul {
+    display: flex;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.footer-links li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--active-color);
+    font-family: var(--main-font);
+}
+
+.social-media img {
+    width: 30px;
+}
+
+.reserve {
+    color: var(--active-color);
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--main-font);
+    margin: 1rem 0;
+}
+
+
+.social-media img {
+    width: 26px;
+}
+
+.social-media {
+    gap: 2rem;
+    display: flex;
 }
