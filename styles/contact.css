@@ -9,11 +9,6 @@ body {
     background-color: var(--hero-bg-color);
 }
 
-.main-container {
-    margin: 0 80px;
-
-}
-
 .desktop-logo p {
     color: var(--active-color);
     font-size: 1.2rem;
@@ -25,11 +20,14 @@ body {
    justify-content: space-between;
     align-items: center;
     align-items: center;
-    margin: 0 30px;
     background-color: var(--nav-color);
     padding: 20px 50px;
     border-radius: 50px;
-
+    position: fixed;
+    left: 80px;
+    right: 80px;
+    z-index: 100;
+    top: 20px;
 }
 
 .desktop-link ul {
@@ -73,7 +71,7 @@ body {
 .contact-section {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    padding-top: 7rem;
 }
 
 .contact-container {

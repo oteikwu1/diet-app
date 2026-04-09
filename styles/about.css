@@ -217,6 +217,7 @@
     display: flex;
     align-items: center;
     padding: 2rem 80px;
+    margin-top: 4rem;
 }
 
 .newsletter {

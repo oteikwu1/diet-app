@@ -12,6 +12,10 @@
     background-color: var(--nav-color);
     padding: 20px 50px;
     border-radius: 50px;
+    position: fixed;
+    left: 80px;
+    right: 80px;
+    z-index: 100;
 }
 
 .desktop-link ul{
